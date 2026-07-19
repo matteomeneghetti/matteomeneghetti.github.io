@@ -1,0 +1,180 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Matteo Meneghetti",
+    "label": "Software Engineer & Roboticist",
+    "image": "",
+    "email": "matteo@meneghetti.dev",
+    "phone": "",
+    "url": "https://meneghetti.cv",
+    "summary": "Software engineer and technical lead with 7+ years designing real-time firmware, industrial protocol stacks, and control systems across robotics, industrial automation, and biotech. Now leading a cross-functional team, owning roadmap and KPIs, while staying hands-on with the architecture. Product-minded, ships fast and iterates on user feedback.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Trieste",
+      "countryCode": "IT",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matteo-meneghetti",
+        "url": "https://www.linkedin.com/in/matteo-meneghetti"
+      },
+      {
+        "network": "GitHub",
+        "username": "matteomeneghetti",
+        "url": "https://github.com/matteomeneghetti"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Arsenale Bioyards",
+      "position": "Project Manager",
+      "url": "",
+      "startDate": "2026-01",
+      "endDate": "",
+      "summary": "Leading a cross-functional team across engineering, analytical chemistry, and microbiology. Owning roadmap, KPIs and cross-discipline coordination",
+      "highlights": [
+        "Supervised the mechanical, electronic and software development of the Piccolo bioreactor platform, bringing a working MVP to completion in 6 months",
+        "Own the product roadmap, translating platform goals into engineering priorities and shippable milestones",
+        "Retain technical ownership of the embedded and software architecture through the transition into the leadership role"
+      ]
+    },
+    {
+      "name": "Arsenale Bioyards",
+      "position": "Embedded Software Architect",
+      "url": "",
+      "startDate": "2024-11",
+      "endDate": "2025-12",
+      "summary": "Designed and built the full embedded and software stack for a next-generation bioreactor platform, from real-time firmware and industrial communication protocols to the operator-facing control interface.",
+      "highlights": [
+        "Architected Piccolo OS, the platform's control interface for real-time process monitoring and trend visualization",
+        "Developed real-time firmware on Zephyr RTOS: closed-loop controls, sensor acquisition and hardware drivers for bioprocess equipment",
+        "Integrated industrial protocols across the stack: Modbus RTU, CAN bus and MQTT for cloud telemetry",
+        "Developed independent Python tooling for bioprocess data integration, analysis, and visualization"
+      ]
+    },
+    {
+      "name": "EXOR International",
+      "position": "Software Engineer",
+      "url": "",
+      "startDate": "2023-12",
+      "endDate": "2024-11",
+      "summary": "Contributed to EXOR’s industrial HMI and edge computing platform, focusing on real-time communication protocol design and embedded systems development.",
+      "highlights": [
+        "Designed and maintained the communication protocol stack for EXOR’s HMI product line, implementing industrial protocols including PROFINET, CAN and NMEA2000 for real-time field device connectivity",
+        "Authored technical design documents and roadmaps for protocol integration features, aligning engineering priorities with product strategy",
+        "Collaborated with cross-functional teams to debug and resolve field-level communication issues across PLC and SCADA systems"
+      ]
+    },
+    {
+      "name": "ALTAIR Robotics Laboratory",
+      "position": "Research Fellow",
+      "url": "",
+      "startDate": "2019-07",
+      "endDate": "2023-11",
+      "summary": "Designed and implemented mission-critical C/C++ firmware for robotic actuator control and real-time sensor data acquisition, establishing the lab’s core control system framework used across multiple research projects.",
+      "highlights": [
+        "Developed low-level firmware for robotic actuators (motors, servo drives, force/torque sensors), handling real-time closed-loop control with deterministic timing constraints",
+        "Architected a reusable embedded control framework that became the standard platform for the lab’s experimental setups, reducing development time for new projects",
+        "Integrated sensor acquisition pipelines for real-time data capture, enabling high-frequency logging and closed-loop feedback for manipulation and locomotion experiments",
+        "Collaborated with PhD researchers and professors on research projects, contributing embedded systems expertise to publications and conference demonstrations"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Verona",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2015-10",
+      "endDate": "2020-07",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Embedded & Real-Time",
+      "keywords": ["Embedded C", "Zephyr RTOS", "Closed-loop Control", "Modbus", "CAN", "SPI", "I²C"]
+    },
+    {
+      "name": "Software & Data",
+      "keywords": ["Python", "C", "C++", "Data Integration & Visualization"]
+    },
+    {
+      "name": "Systems Integration",
+      "keywords": ["PLC", "SCADA", "MQTT"]
+    },
+    {
+      "name": "Leadership & Product",
+      "keywords": ["Cross-functional Team Leadership", "Roadmap Ownership", "Stakeholder Alignment"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "projects": [
+  ],
+  "publications": [
+    {
+      "name": "The ForceCAST framework: Methodology and tools for benchmarking force control algorithms",
+      "publisher": "Mechatronics (Pergamon), vol. 115",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Dimo E., Meneghetti M., Murr N., Calanca A."
+    },
+    {
+      "name": "A Single-Wire Soft Sensor for Seamless Multimodal Tactile Sensing",
+      "publisher": "2025 IEEE 8th International Conference on Soft Robotics (RoboSoft)",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Meneghetti M., Visentin F."
+    },
+    {
+      "name": "An affordable upper-limb exoskeleton concept for rehabilitation applications",
+      "publisher": "Technologies (MDPI), vol. 10(1)",
+      "releaseDate": "2022",
+      "url": "",
+      "summary": "Palazzi E., Luzi L., Dimo E., Meneghetti M., Vicario R., Ferro R., Vertechy R., Calanca A."
+    },
+    {
+      "name": "Benchmarking force control algorithms",
+      "publisher": "14th PErvasive Technologies Related to Assistive Environments (PETRA) Conference",
+      "releaseDate": "2021",
+      "url": "",
+      "summary": "Vicario R., Calanca A., Dimo E., Murr N., Meneghetti M., Ferro R., Sartori E., Boaventura T."
+    },
+    {
+      "name": "Toward personal affordable exoskeletons with force control capabilities",
+      "publisher": "14th PErvasive Technologies Related to Assistive Environments (PETRA) Conference",
+      "releaseDate": "2021",
+      "url": "",
+      "summary": "Calanca A., Dimo E., Palazzi E., Ferro R., Vicario R., Murr N., Meneghetti M., et al."
+    },
+    {
+      "name": "A Methodology for Benchmarking Force Control Algorithms",
+      "publisher": "International Symposium on Wearable Robotics (WeRob), Springer",
+      "releaseDate": "2020",
+      "url": "",
+      "summary": "Vicario R., Calanca A., Murr N., Meneghetti M., Sartori E., Zanni G., Fiorini P."
+    }
+  ],
+  "interests": [
+  ],
+  "meta": {
+    "theme": "macchiato",
+    "canonical": "https://meneghetti.cv/resume.json",
+    "version": "1.0.0"
+  }
+}

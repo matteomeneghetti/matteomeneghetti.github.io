@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal CV built from resume.json",
+  "scripts": {
+    "build": "resumed render resume.json --theme jsonresume-theme-macchiato -o public/index.html",
+    "watch": "onchange resume.json -- npm run build"
+  },
+  "devDependencies": {
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "onchange": "^7.1.0",
+    "resumed": "^6.1.0"
+  }
+}
