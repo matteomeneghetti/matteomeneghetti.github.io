@@ -1,0 +1,17 @@
+{
+  "name": "jsonresume-theme-macchiato",
+  "version": "1.1.0",
+  "description": "Simple theme for JSON Resume. Based on caffeine-theme. Vendored locally from biosan/jsonresume-theme-macchiato (MIT) and modified.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Alessandro Biondi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biosan/jsonresume-theme-macchiato"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "handlebars-wax": "^6.1.0",
+    "moment": "^2.24.0"
+  }
+}
